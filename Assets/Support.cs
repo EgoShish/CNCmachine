@@ -5,8 +5,8 @@ using UnityEngine.UIElements;
 
 public class Support : MonoBehaviour
 {
-    //изменено для точечного коммита: скорость суппорта с 3 на 2
-    private float moveSpeed = 2f;
+    
+    private float moveSpeed = 3f;
     private Rigidbody rb;
     private float position;
     private bool s_Stop;
